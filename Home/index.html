@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="../Home/index.html">Home</a>
+            <a href="../cart/index.html">Cart</a>
+            <a href="../manage/index.html">Manage</a>
+        </div>
+    </nav>
+    <div class="main">
+        <h1>Danh Mục</h1>
+        <div class="content_pro">
+                <div class="card" value-id="tq">
+                    <div class="content_item--img">
+                        <img src="./ảnh/trung-quoc-66435.jpg" alt="">
+                        <div class="overlay">
+                            <div class="text">Đồ ăn Trung Quốc</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" value-id="au">
+                    <div class="content_item--img">
+                        <img src="./ảnh/my-450757.jpg" alt="">
+                        <div class="overlay">
+                            <div class="text">Đồ ăn Mỹ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" value-id="dch">
+                    <div class="content_item--img">
+                        <img src="./ảnh/mexico-450760.jpg" alt="">
+                        <div class="overlay">
+                            <div class="text">Đồ ăn Mexico</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" value-id="a">
+                    <div class="content_item--img">
+                        <img src="./ảnh/viet-nam-330986.jpg" alt="">
+                        <div class="overlay">
+                            <div class="text">Đồ ăn Việt Nam</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" value-id="nb">
+                    <div class="content_item--img">
+                        <img src="./ảnh/han-quoc-66424.jpg" alt="">
+                        <div class="overlay">
+                            <div class="text">Đồ ăn Hàn Quốc</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" value-id="tl">
+                    <div class="content_item--img">
+                        <img src="./ảnh/an-do-66393.jpg" alt="">
+                        <div class="overlay">
+                            <div class="text">Đồ ăn Ấn Độ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foodlist">
+        <h1>Danh sách đồ ăn</h1>
+        <div class="container" id="listfood"> </div>
+    </div>
+    <div class="loadmore" id="loadmore">
+        <button id="button_bot" onClick="hidden_loadmore();" >Load More</button>
+    </div>  
+    <div class="mess" id="mess"></div>
+    
+    <script src="../../src/pay.js"></script>
+<script src="../../src/mess.js"></script>
+<script src="../../src/cart.js"></script>
+<script src="../../src/food.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
